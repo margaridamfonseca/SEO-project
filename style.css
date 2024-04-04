@@ -107,3 +107,26 @@ p {
   box-shadow: var(--box-shadow);
   margin-left: 18px;
 }
+
+@media (max-width: 768px) {
+ 
+  h1{
+    font-size: 40px;
+    margin-top: 15px;
+  }
+  h3{
+    font-size: 20px;
+    margin: 0 2px;
+  }
+  .first-link{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  img{
+    display: none;
+  }
+
+  
+}
